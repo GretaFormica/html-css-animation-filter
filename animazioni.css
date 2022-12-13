@@ -49,3 +49,9 @@
     width: 10px;
     height: 10px;
 }
+
+/* esercizio 6 */
+
+.ex-6-img:hover{
+    filter: grayscale(1);
+}
