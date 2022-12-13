@@ -34,3 +34,18 @@
 .ex-4-square:hover{
     background-color: transparent;
 }
+
+/* esercizio 5 */
+.ex-5-square{
+    transition: all 1s linear 0s;
+}
+
+.ex-5-square:hover{
+    width: 100px;
+    height: 100px;
+}
+
+.ex-5-square:active{
+    width: 10px;
+    height: 10px;
+}
