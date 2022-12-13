@@ -88,3 +88,21 @@
     border-radius: 10px;
     width: 80%;
 }
+
+/* esercizio 10 */
+
+.ex-10-icon{
+    animation-name: gira;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+
+@keyframes gira {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
