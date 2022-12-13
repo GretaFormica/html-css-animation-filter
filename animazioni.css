@@ -63,8 +63,19 @@
 }
 
 .ex-7-img:hover{
-    filter: grayscale(1), blur(1);
+    filter: grayscale(1) blur(10px);
 }
 
+/* esercizio 8 */
 
+.ex-8-img{
+    transition: all 1s linear 0s;
+}
+
+.ex-8-img:hover{
+    filter: grayscale(1) brightness(0.5);
+    border-radius: 10px;
+}
+
+/* esercizio 9 */
 
